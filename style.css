@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.chatContainer {
+    width: 400px;
+    border: 1px solid #e4e4e4;
+    border-radius: 8px;
+    padding: 10px 15px;
+}
+
+select,
+input,
+button,
+#chatBox {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 4px;
+    border: 1px solid #ddd;
+}
+
+#chatBox {
+    height: 300px;
+    background: #fafafa;
+}
+
+#sendMessage {
+    background: blue;
+    color: white;
+    cursor: pointer;
+}

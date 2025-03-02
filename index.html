@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real time chat</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="chatContainer">
+        <h2>Chat Room</h2>
+        <select name="" id="room">
+            <option value="general">General</option>
+            <option value="tech">Tech</option>
+        </select>
+        <div id="chatBox"></div>
+        <input id="inputData" type="text" placeholder="Type a message...">
+        <button id="sendMessage">Send</button>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
